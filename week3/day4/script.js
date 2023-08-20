@@ -46,7 +46,7 @@
 // let users=["daniel","alex","vasyan",333];
 // console.log(users);
 // console.log(typeof users[3]);
-//SPLICE ARRAY REMOVE/ADD ITEMS
+// SPLICE ARRAY REMOVE/ADD ITEMS
 // let colors=["yellos","blue","red","green"];
 // console.log(colors);
 // colors.splice(1,1,"pink");
@@ -63,7 +63,7 @@
 // pets.splice(1,1,"horse");
 // console.log(pets)
 // console.log(pets.length)
-//IF CONDITIONS
+// IF CONDITIONS
 // let x=21;
 // if (x>=21){
 // console.log("u can drink in US")
