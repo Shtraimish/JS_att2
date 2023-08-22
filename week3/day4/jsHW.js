@@ -105,15 +105,15 @@ const people = ["Greg", "Mary", "Devon", "James"];
 
 //EX 7
 
-const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
-const sortedNames=names.sort();
+// const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+// const sortedNames=names.sort();
 
-let societyName='';
-for(const name in sortedNames){
-societyName+=sortedNames[name][0];
-console.log(name)
-}
-console.log(societyName)
+// let societyName='';
+// for(const name in sortedNames){
+// societyName+=sortedNames[name][0];
+// console.log(name)
+// }
+// console.log(societyName)
 
 // for (const name of sortedNames) {
 //     secretSocietyName += name[0];
