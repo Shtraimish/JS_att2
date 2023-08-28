@@ -9,8 +9,6 @@
 //     });
 // }
 
-
-
 // //In the example, the promise should reject
 // compareToTen(15)
 //   .then(result => console.log(result))
@@ -21,3 +19,15 @@
 //   .then(result => console.log(result))
 //   .catch(error => console.log(error))
 
+//ex2
+function sucsessWaiter() {
+  return new Promise((resolve, reject) => {
+    console.log("before");
+    setTimeout( ()=> {
+      console.log("inside");
+      resolve("sakis");
+    }, 4000);
+  
+  });
+}
+sucsessWaiter();
