@@ -20,14 +20,25 @@
 //   .catch(error => console.log(error))
 
 //ex2
-function sucsessWaiter() {
-  return new Promise((resolve, reject) => {
-    console.log("before");
-    setTimeout( ()=> {
-      console.log("inside");
-      resolve("sakis");
-    }, 4000);
+// function sucsessWaiter() {
+//   return new Promise((resolve, reject) => {
+//     console.log("before");
+//     setTimeout( ()=> {
+//       console.log("inside");
+//       resolve("sakis");
+//     }, 4000);
   
-  });
-}
-sucsessWaiter();
+//   });
+// }
+//
+//ex3
+// let a =5;
+// const promise123=new Promise(res,rej)
+// {
+// setTimeout(() => {
+//     res(console.log(a+=5))
+// }, 2000);
+// } 
+// console.log(a)
+
+
