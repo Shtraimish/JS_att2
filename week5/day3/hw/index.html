@@ -5,9 +5,22 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='script.js'></script>
+   <!-- <script src='script.js'></script> -->
+    <!-- <script src='scriptDC.js'></script> -->
 </head>
 <body>
-    
+    <h1>GIF Fetcher</h1>
+    <form action="/getuser">
+        <label for="category">Enter a category:</label>
+        <input type="text" id="category" name="category">
+        <button type="button" id="fetchButton">Fetch GIF</button>
+    </form>
+    <div id="gifContainer">
+        <!-- Fetched GIF will be displayed here -->
+
+
+    </div>
+
+    <script src='scriptDC.js'></script>
 </body>
 </html>
